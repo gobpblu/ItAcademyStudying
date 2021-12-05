@@ -1,3 +1,5 @@
+package com.company.Fridge;
+
 public class Fridge {
     RefrigeratedCabinet refrigeratedCabinet;
     Freezer freezer;

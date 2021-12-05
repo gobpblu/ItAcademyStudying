@@ -1,3 +1,5 @@
+package com.company.Fridge;
+
 public class Freezer {
     PullOutShelf[] pullOutShelves = new PullOutShelf[3];
     int pullOutShelvesCounter = 0;

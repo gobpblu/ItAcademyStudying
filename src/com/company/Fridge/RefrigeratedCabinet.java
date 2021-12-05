@@ -1,3 +1,5 @@
+package com.company.Fridge;
+
 public class RefrigeratedCabinet {
     PullOutShelf[] pullOutShelves = new PullOutShelf[2];
     StaticShelf[] staticShelves = new StaticShelf[4];

@@ -1,13 +1,15 @@
-public class SideShelf {
+package com.company.Fridge;
+
+public class StaticShelf {
     int numberOfProducts;
     String[] nameOfProducts = new String[numberOfProducts];
 
-    public SideShelf(String[] nameOfProduct) {
+    public StaticShelf(String[] nameOfProduct) {
         this.numberOfProducts = nameOfProduct.length;
         this.nameOfProducts = nameOfProduct;
     }
 
-    public SideShelf() {
+    public StaticShelf() {
 
     }
 

@@ -1,3 +1,5 @@
+package com.company.Fridge;
+
 public class Main {
     public static void main(String[] args) {
 

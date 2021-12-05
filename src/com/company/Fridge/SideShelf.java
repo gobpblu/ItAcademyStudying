@@ -1,13 +1,15 @@
-public class PullOutShelf {
+package com.company.Fridge;
+
+public class SideShelf {
     int numberOfProducts;
     String[] nameOfProducts = new String[numberOfProducts];
 
-    public PullOutShelf(String[] nameOfProducts) {
-        this.numberOfProducts = nameOfProducts.length;
-        this.nameOfProducts = nameOfProducts;
+    public SideShelf(String[] nameOfProduct) {
+        this.numberOfProducts = nameOfProduct.length;
+        this.nameOfProducts = nameOfProduct;
     }
 
-    public PullOutShelf() {
+    public SideShelf() {
 
     }
 
