@@ -1,7 +1,5 @@
 package com.company.linkedlist;
 
-import com.company.polymorphism.firstLesson.Animal;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 
@@ -69,12 +67,12 @@ public class Main {
         System.out.println("Сумма возрастов собак: " + dogAgeCounter);
         LinkedList<AbstractAnimal> animals4 = new LinkedList<>();
         for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < animals.size(); j++) {
-                if (i == 0 && animals.get(j) instanceof Cat) {
-                    animals4.add(animals.get(j));
-                } else if (i == 1 && animals.get(j) instanceof Dog) {
-                    animals4.add(animals.get(j));
-                } else if (i == 2 && animals.get(j) instanceof Mouse)animals4.add(animals.get(j));
+            for (AbstractAnimal animal : animals) {
+                if (i == 0 && animal instanceof Cat) {
+                    animals4.add(animal);
+                } else if (i == 1 && animal instanceof Dog) {
+                    animals4.add(animal);
+                } else if (i == 2 && animal instanceof Mouse) animals4.add(animal);
             }
         }
         System.out.println("Список без конфликта кошек и мышей: " + animals4);
